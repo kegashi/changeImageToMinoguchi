@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Change Image to Minoguchi!",
+  "version": "1.0",
+  "description": "奇跡の瞬間を.",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["jquery-2.1.4.min.js","fuga.js"],
+	  "run_at": "document_idle"
+    }
+  ]
+}
+
